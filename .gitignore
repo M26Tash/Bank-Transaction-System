@@ -1,0 +1,28 @@
+# Build output
+target/
+
+# Local app data (contains password hashes)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Credentials - never commit these
+firebase.properties
+*.json
+*.p12
+*.pem
+.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/
+
+# OS
+.DS_Store
+Thumbs.db
